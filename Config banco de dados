@@ -1,0 +1,14 @@
+
+CREATE TABLE `usuario` 
+  `id` int(255) NOT NULL,
+  `nome` varchar(255) NOT NULL,
+  `cep` char(8) NOT NULL,
+  `rua` varchar(255) NOT NULL,
+  `numero` char(255) NOT NULL,
+  `complemento` varchar(255) NOT NULL,
+  `bairro` varchar(255) NOT NULL,
+  `cidade` varchar(255) NOT NULL,
+  `estado` varchar(255) NOT NULL,
+  `telefone` char(14) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
